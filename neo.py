@@ -9,7 +9,6 @@ url = "https://api.nasa.gov/neo/rest/v1/feed"
 
 st.title(" Near-Earth Object Tracker")
 
-# Date input
 start_date = st.date_input("Select Start Date")
 end_date = st.date_input("Select End Date")
 
@@ -57,6 +56,5 @@ if st.button("Get Asteroid Data"):
         st.error("Failed to fetch data")
 
     st.write("Made with love by Anshuman Nigam ❤️")
-
 
 

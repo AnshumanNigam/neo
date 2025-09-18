@@ -1,5 +1,7 @@
 # Near-Earth Object (NEO) Tracker
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A **Streamlit web app** that tracks near-Earth asteroids using NASA's [NeoWs API](https://api.nasa.gov/).  
 It lets you select a date range (up to 7 days) and fetch details such as asteroid size, velocity, miss distance, and whether it’s potentially hazardous.  
 The app also provides an interactive Plotly scatter plot and allows exporting results to CSV.

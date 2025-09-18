@@ -15,7 +15,7 @@ The app also provides an interactive Plotly scatter plot and allows exporting re
 - View asteroid details in a **Streamlit DataFrame**  
 - Plot **Miss Distance vs Diameter** with Plotly  
 - **Download asteroid data** as CSV  
-- ⚠Highlight **potentially hazardous asteroids** based on NASA’s criteria  
+- **potentially hazardous asteroids** based on NASA’s criteria  
 
 ---
 

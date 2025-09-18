@@ -32,8 +32,8 @@ if st.button("Get Asteroid Data"):
                 asteroids.append({
                     "Name": asteroid["name"],
                     "Diameter (km)": asteroid["estimated_diameter"]["kilometers"]["estimated_diameter_max"],
-                    "Velocity (km/s)": asteroid["close_approach_data"][0]["relative_velocity"]["kilometers_per_second"],
-                    "Miss Distance (km)": asteroid["close_approach_data"][0]["miss_distance"]["kilometers"],
+                    "Velocity (km/s)": float(asteroid["close_approach_data"][0]["relative_velocity"]["kilometers_per_second"]),
+                    "Miss Distance (km)": float(asteroid["close_approach_data"][0]["miss_distance"]["kilometers"]),
                     "Hazardous": asteroid["is_potentially_hazardous_asteroid"]
                 })
 
@@ -56,5 +56,6 @@ if st.button("Get Asteroid Data"):
         st.error("Failed to fetch data")
 
     st.write("Made with love by Anshuman Nigam ❤️")
+
 
 
